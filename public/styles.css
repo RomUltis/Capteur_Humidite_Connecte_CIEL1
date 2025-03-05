@@ -1,0 +1,58 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to bottom, #e8ecef, #f8f9fa);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card {
+    padding: 20px;
+    background: rgba(240, 240, 240, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#humidity {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007aff;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
